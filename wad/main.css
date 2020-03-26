@@ -1,0 +1,506 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #ecf0f1;
+}
+ul, li {
+    list-style: none;
+}
+p, h1, h2 {
+    font-family: 'Roboto', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#login_page {
+    width: 100%;
+    height: auto;
+    margin:15px;
+
+}
+#registration_page{
+    width: 100%;
+    height: auto;
+    margin:15px;
+}
+#white_block{
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+    height: auto;
+    padding-top: 20px;
+    margin-top: 20px;
+    background-origin: padding-box;
+    box-shadow: 0 1px 2px #c9cccd;
+    background-color:#ffffff;
+   
+}
+
+ul.Login_list {
+    list-style-type: none;
+   
+   }  
+
+ul.Login_list li{
+padding: 6px 10px;
+box-sizing: border-box;
+width: 250px;
+
+}  
+
+/* The message box is shown when the user clicks on the password field */
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Style the container for inputs */
+
+/* The message box is shown when the user clicks on the password field */
+#message {
+    width: 89%;
+  display:none;
+  background: #f1f1f1;
+  color: #000;
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+#message p {
+  padding: 10px 35px;
+  font-size: 18px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+  color: green;
+}
+
+.valid:before {
+  position: relative;
+  left: -35px;
+  content: "✔";
+}
+
+/* Add a red text color and an "x" when the requirements are wrong */
+.invalid {
+  color: red;
+}
+
+.invalid:before {
+  position: relative;
+  left: -35px;
+  content: "✖";
+}
+.error {
+	width: 92%; 
+	margin: 0px auto; 
+	padding: 10px; 
+	border: 1px solid #a94442; 
+	color: #a94442; 
+	background: #f2dede; 
+	border-radius: 5px; 
+	text-align: left;
+}
+
+
+
+
+.Login_list label {
+   padding-top: 10px;
+  
+}
+
+
+.registeration{
+ padding-top: 130px;
+text-align: center;
+}
+.question{
+    width: 100%;
+        height: 100%;
+        background-color: #ffffff;
+        
+        margin-top: 20px;
+        box-shadow: 0 1px 2px #c9cccd;
+        border-radius: 2px;
+}
+
+.ul.Login_list li button{
+    width: 200px;
+    text-align: center;
+    padding: 6px 0px;
+    border: none;
+    background-color: burlywood;
+    border-radius: 5px;
+    font-size: medium;
+    background-color: royalblue;
+    color: aqua;
+}
+#main_img{
+    width: 100%;
+    height: 250px;
+    background:url(img/main_img.jpg) 50% 50% no-repeat;
+    background-size: cover;
+    position: inherit;
+}
+
+#header_menu{
+    height: 65px;
+    border-bottom: 1px solid #c9cccd;
+    position: relative;
+    overflow: hidden;
+    background-color: #ffffff;
+
+}
+#logo_header {
+    border-right: 1px solid #c9cccd;
+    height: 65px;
+    width: 65px;
+    background-image: url(img/newLogo.png);
+    background-size: cover;
+    display: inline-block;
+}
+#header_side_line{
+    border-left: 1px solid #c9cccd;
+    width: 2px;
+    height: auto
+}
+.test{
+    display: inline-block;
+    padding: 10px;
+    float: right;
+   
+}
+#img_prof{
+    background: url(img/prof.png) 100% 100% no-repeat;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+#Username_a{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    padding: 15px;
+    
+}
+.login_input{
+    
+  padding: 6px 10px;
+  box-sizing: border-box;
+  width: 250px;
+}
+.login_input:focus{
+    box-shadow: 0 0 5px #43D1AF;
+	border: 1px solid #43D1AF;
+}
+
+#btn_log{
+    width: 250px;
+    height: 35px;
+    font-size: 18px;
+    color: white;
+    background-color: #001e38;
+    text-decoration: none;
+    border: none;
+    transition-duration: 0.3s;
+}
+#btn_log:hover{
+    background-color: #013c70;
+}
+#comment_textarea{
+    min-width: 95%;
+    max-width: 95%;
+    min-height: 70px;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 550px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        transition-duration: 0.5s;
+        
+    }
+    .main_info{
+        width: 550px;
+        height: 100%;
+        float: left;
+        transition-duration: 0.5s;
+    }
+    .sidebar{
+        float: left;
+        width: 550px;
+        height: 100%;
+        
+        transition-duration: 0.5s;
+    }
+    .post {
+        width: 500px;
+        height: 100%;
+        background-color: #ffffff;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        box-shadow: 0 1px 2px #c9cccd;
+        border-radius: 2px;
+    }
+    .post a{
+        text-decoration: none;
+        color: black;
+    }
+    .post_text{
+        margin: 10px;
+    }
+    .side_post{
+        width: 500px;
+        height: 100%;
+        background-color: #ffffff;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        box-shadow: 0 1px 2px #c9cccd;
+        border-radius: 2px;
+    }
+    
+    
+
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .container {
+        width: 550px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        transition-duration: 0.5s;
+        
+    }
+    .main_info{
+        width: 550px;
+        height: 100%;
+        float: left;
+
+        transition-duration: 0.5s;
+    }
+    .sidebar{
+        float: left;
+        width: 550px;
+        height: 100%;
+        
+        transition-duration: 0.5s;
+    }
+    .post {
+        width: 500px;
+        height: 100%;
+        background-color: #ffffff;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        box-shadow: 0 1px 2px #c9cccd;
+        border-radius: 2px;
+    }
+    .post_text{
+        margin: 10px;
+    }
+    .side_post{
+        width: 500px;
+        height: 100%;
+        background-color: #ffffff;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        box-shadow: 0 1px 2px #c9cccd;
+        border-radius: 2px;
+    }
+    .post a{
+        text-decoration: none;
+        color: black;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .container {
+        width: 700px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        transition-duration: 0.5s;
+        
+    }
+    .main_info{
+        width: 450px;
+        height: 100%;
+        float: left;
+
+        transition-duration: 0.5s;
+    }
+    .sidebar{
+        float: right;
+        width: 250px;
+        height: 100%;
+        
+        transition-duration: 0.5s;
+    }
+    .post {
+        width: 400px;
+        height: 100%;
+        background-color: #ffffff;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        box-shadow: 0 1px 2px #c9cccd;
+        border-radius: 2px;
+    }
+    .post_text{
+        margin: 10px;
+    }
+    .side_post{
+        width: 200px;
+        height: 100%;
+        background-color: #ffffff;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        box-shadow: 0 1px 2px #c9cccd;
+        border-radius: 2px;
+    }
+    .post a{
+        text-decoration: none;
+        color: black;
+    }
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .container {
+        width: 950px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        transition-duration: 0.5s;
+        
+        
+    }
+    .main_info{
+        width: 650px;
+        height: 100%;
+        float: left;
+        transition-duration: 0.5s;
+    }
+    .sidebar{
+        float: right;
+        width: 300px;
+        height: 100%;
+        
+        transition-duration: 0.5s;
+    }
+    .post {
+        width: 600px;
+        height: 100%;
+        background-color: #ffffff;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        box-shadow: 0 1px 2px #c9cccd;
+        border-radius: 2px;
+    }
+    .post_text{
+        margin: 10px;
+    }
+    .post a{
+        text-decoration: none;
+        color: black;
+    }
+    .side_post{
+        width: 250px;
+        height: 100%;
+        background-color: #ffffff;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        box-shadow: 0 1px 2px #c9cccd;
+        border-radius: 2px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .container {
+        width: 950px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        transition-duration: 0.5s;
+        
+    }
+    .main_info{
+        width: 650px;
+        height: 100%;
+        float: left;
+        transition-duration: 0.5s;
+    }
+    .sidebar{
+        float: right;
+        width: 300px;
+        height: 100%;
+        
+        transition-duration: 0.5s;
+    }
+    .post {
+        width: 600px;
+        height: 100%;
+        background-color: #ffffff;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        box-shadow: 0 1px 2px #c9cccd;
+        border-radius: 2px;
+    }
+    .post_text{
+        margin: 10px;
+    }
+    .post a{
+        text-decoration: none;
+        color: black;
+    }
+    .side_post{
+        width: 250px;
+        height: 100%;
+        background-color: #ffffff;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        box-shadow: 0 1px 2px #c9cccd;
+        border-radius: 2px;
+    }
+}
