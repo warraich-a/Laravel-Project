@@ -1,8 +1,18 @@
-<?php include('server.php') ?>
+<?php 
+//login
+include("Model\server.php");
+
+    if (isset($_POST['login_user'])) 
+	{
+        $email = $_POST["email"];
+        $password_login = $_POST["password_login"];
+        login($email, $password_login);
+    } 
+?>
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="main.css">
+<link rel="stylesheet" type="text/css" href="View\CSS\main.css">
 </head>
 <body>
 
@@ -35,7 +45,7 @@
                             <input type="password" name="password_login" class="login_input">  
                             <br>
                             <button type="submit" class="btn" name="login_user" id="btn_log"><p>Login<p></button>   <br>  <br>
-                             <button type="button" name="Forget Password" value="Forget Password" id="btn_log"> Forget Password </button> 
+                            <a href="Email.php">Forget Password </a> 
                              </center>
                     </form>
                    

@@ -1,12 +1,10 @@
-<?php include('server.php') ?>
+<?php include('Controller\register.php') ?>
 
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="View\CSS\main.css">
     <title>Forum</title>
-  
-
 </head>
 <body>
     <header>
@@ -64,7 +62,7 @@
             <p id="number" class="invalid">A <b>number</b></p>
             <p id="length" class="invalid">Minimum <b>8 characters</b></p>
         </div>
-        <script src="jsFormValidation.js"></script>
+        <script src="View\JS\jsFormValidation.js"></script>
      </div> 
 </div>
       
