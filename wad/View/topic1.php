@@ -1,4 +1,5 @@
 <?php 
+
     date_default_timezone_get('Europe/Copenhagen');
     include 'connection.inc.php';
     include 'comments.inc.php';

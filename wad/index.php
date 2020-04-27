@@ -8,11 +8,7 @@ include('../wad/Model/config/session_expiry.php');
 <!DOCTYPE html>
 <html>
     <head>
-<<<<<<< HEAD
     <link rel="stylesheet" type="text/css" href="View/CSS/main.css">
-=======
-        <link rel="stylesheet" type="text/css" href="View/CSS/main.css">
->>>>>>> 56b04c1cc2f4ad1d6ee8106a023e8cf84509558f
         <title>Forum</title>
         
     </head>
@@ -34,7 +30,7 @@ include('../wad/Model/config/session_expiry.php');
         <main>
             <div class="container">
                 <div class="main_info">
-                    <div class="post"><a href="View/topic1.php"> 
+                    <div class="post"><a href="topic1.php"> 
                         <br>
                         <h2 class="post_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
                         <br>
@@ -42,7 +38,7 @@ include('../wad/Model/config/session_expiry.php');
                         <br></a>
                     </div>
                     <div class="post">
-                    <a href="View/topic1.php"> 
+                    <a href="topic1.php"> 
                         <br>
                         <h2 class="post_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
                         <br>
@@ -50,7 +46,7 @@ include('../wad/Model/config/session_expiry.php');
                         <br></a>
                     </div>
                     <div class="post">
-                    <a href="View/topic1.php"> 
+                    <a href="topic1.php"> 
                         <br>
                         <h2 class="post_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
                         <br>
@@ -58,7 +54,7 @@ include('../wad/Model/config/session_expiry.php');
                         <br></a>
                     </div>
                     <div class="post">
-                    <a href="View/topic1.php"> 
+                    <a href="topic1.php"> 
                         <br>
                         <h2 class="post_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
                         <br>
@@ -68,7 +64,7 @@ include('../wad/Model/config/session_expiry.php');
                 </div>
                 <div class="sidebar">
                     <div class="side_post"> 
-                    <a href="View/topic1.php"> 
+                    <a href="topic1.php"> 
                         <br>
                         <h2 class="post_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
                         <br>
@@ -76,7 +72,7 @@ include('../wad/Model/config/session_expiry.php');
                         <br></a>
                     </div>
                     <div class="side_post"> 
-                    <a href="View/topic1.php"> 
+                    <a href="topic1.php"> 
                         <br>
                         <h2 class="post_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
                         <br>

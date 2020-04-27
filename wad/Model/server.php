@@ -15,7 +15,7 @@ include('../Model/config/dbConfig.php');
 			if($email == "admin")
 			{
 		
-				header('location: ../View/adminIndex.php');
+				header('location: adminIndex.php');
 				
 			}  
 			else 
