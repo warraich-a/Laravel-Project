@@ -1,5 +1,5 @@
 <?php 
-include("Model\server.php");
+include('../Model/server.php');
 if (isset($_POST['reg_user']))
 {
    //Getting the inputs thorugh post method
