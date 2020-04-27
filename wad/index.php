@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="View/CSS/main.css">
+        <link rel="stylesheet" type="text/css" href="style\main.css">
         <title>Forum</title>
         
     </head>
@@ -23,7 +23,7 @@
         <main>
             <div class="container">
                 <div class="main_info">
-                    <div class="post"><a href="View/topic1.php"> 
+                    <div class="post"><a href="topic1.php"> 
                         <br>
                         <h2 class="post_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
                         <br>
@@ -31,7 +31,7 @@
                         <br></a>
                     </div>
                     <div class="post">
-                    <a href="View/topic1.php"> 
+                    <a href="topic1.php"> 
                         <br>
                         <h2 class="post_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
                         <br>
@@ -39,7 +39,7 @@
                         <br></a>
                     </div>
                     <div class="post">
-                    <a href="View/topic1.php"> 
+                    <a href="topic1.php"> 
                         <br>
                         <h2 class="post_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
                         <br>
@@ -47,7 +47,7 @@
                         <br></a>
                     </div>
                     <div class="post">
-                    <a href="View/topic1.php"> 
+                    <a href="topic1.php"> 
                         <br>
                         <h2 class="post_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
                         <br>
@@ -57,7 +57,7 @@
                 </div>
                 <div class="sidebar">
                     <div class="side_post"> 
-                    <a href="View/topic1.php"> 
+                    <a href="topic1.php"> 
                         <br>
                         <h2 class="post_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
                         <br>
@@ -65,7 +65,7 @@
                         <br></a>
                     </div>
                     <div class="side_post"> 
-                    <a href="View/topic1.php"> 
+                    <a href="topic1.php"> 
                         <br>
                         <h2 class="post_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
                         <br>
