@@ -1,6 +1,6 @@
 <?php 
 //login
-include("Model\server.php");
+include("../Model/server.php");
 
     if (isset($_POST['login_user'])) 
 	{
@@ -12,7 +12,7 @@ include("Model\server.php");
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="View\CSS\main.css">
+<link rel="stylesheet" type="text/css" href="CSS/main.css">
 </head>
 <body>
 

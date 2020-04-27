@@ -1,5 +1,5 @@
 <?php 
-include("Model\config\dbConfig.php");
+include("../Model/config/dbConfig.php");
 
 
 	// include("php/connection.inc.php");
@@ -15,7 +15,7 @@ include("Model\config\dbConfig.php");
 			if($email == "admin")
 			{
 		
-				header('location: adminIndex.php');
+				header('location: ../View/adminIndex.php');
 				
 			}  
 			else 
