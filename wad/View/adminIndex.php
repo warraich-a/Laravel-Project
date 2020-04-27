@@ -1,14 +1,7 @@
-<?php 
-include('../wad/Model/config/session.php');
-include('../wad/Model/config/session_expiry.php');
-
-?>
-
-
 <!DOCTYPE html>
 <html>
     <head>
-    <link rel="stylesheet" type="text/css" href="View/CSS/main.css">
+        <link rel="stylesheet" type="text/css" href="CSS/main.css">
         <title>Forum</title>
         
     </head>
@@ -21,7 +14,7 @@ include('../wad/Model/config/session_expiry.php');
                 <div class="container">
                     <ul>
                         <li class="test"><a><div id="img_prof"></div></a></li>
-                        <li class="test" id="Username_a"><a href="login.php">Username</a></li>
+                        <li class="test" id="Username_a"><a href="">Admin</a></li>
                         <li class="test" style="float: left; padding: 0;"><div id="logo_header"></div></li>
                     </ul>
                 </div>
@@ -30,7 +23,7 @@ include('../wad/Model/config/session_expiry.php');
         <main>
             <div class="container">
                 <div class="main_info">
-                    <div class="post"><a href="topic1.php"> 
+                    <div class="post"><a href="adminTopic1.php"> 
                         <br>
                         <h2 class="post_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
                         <br>
@@ -38,7 +31,7 @@ include('../wad/Model/config/session_expiry.php');
                         <br></a>
                     </div>
                     <div class="post">
-                    <a href="topic1.php"> 
+                    <a href="adminTopic1.php"> 
                         <br>
                         <h2 class="post_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
                         <br>
@@ -46,7 +39,7 @@ include('../wad/Model/config/session_expiry.php');
                         <br></a>
                     </div>
                     <div class="post">
-                    <a href="topic1.php"> 
+                    <a href="adminTopic1.php"> 
                         <br>
                         <h2 class="post_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
                         <br>
@@ -54,7 +47,7 @@ include('../wad/Model/config/session_expiry.php');
                         <br></a>
                     </div>
                     <div class="post">
-                    <a href="topic1.php"> 
+                    <a href="adminTopic1.php"> 
                         <br>
                         <h2 class="post_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
                         <br>
@@ -64,7 +57,7 @@ include('../wad/Model/config/session_expiry.php');
                 </div>
                 <div class="sidebar">
                     <div class="side_post"> 
-                    <a href="topic1.php"> 
+                    <a href="adminTopic1.php"> 
                         <br>
                         <h2 class="post_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
                         <br>
@@ -72,7 +65,7 @@ include('../wad/Model/config/session_expiry.php');
                         <br></a>
                     </div>
                     <div class="side_post"> 
-                    <a href="topic1.php"> 
+                    <a href="adminTopic1.php"> 
                         <br>
                         <h2 class="post_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
                         <br>

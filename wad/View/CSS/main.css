@@ -158,7 +158,7 @@ text-align: center;
 #main_img{
     width: 100%;
     height: 250px;
-    background:url(View\img\main_img.jpg) 50% 50% no-repeat;
+    background:url('../img/main_img.jpg') 50% 50% no-repeat;
     background-size: cover;
     position: inherit;
 }
@@ -175,7 +175,7 @@ text-align: center;
     border-right: 1px solid #c9cccd;
     height: 65px;
     width: 65px;
-    background-image: url(View\img\newLogo.png);
+    background-image: url('../img/newLogo.png');
     background-size: cover;
     display: inline-block;
 }
