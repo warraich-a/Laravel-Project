@@ -25,7 +25,8 @@
                 <div class="main_info">
                     <div class="post"><a href="adminTopic1.php"> 
                         <br>
-                        <h2 class="post_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                        <h2 class="post_text">Lorem ipsum dolor sit amet, consectetur adipiscing </h2>
+                        <hr class="goodHr">
                         <br>
                         <p class="post_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam volutpat suscipit finibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus nec mauris tempor, rhoncus mi eu, euismod purus. Quisque quis scelerisque augue. Mauris consectetur, odio a condimentum hendrerit</p>
                         <br></a>
@@ -34,6 +35,7 @@
                     <a href="adminTopic1.php"> 
                         <br>
                         <h2 class="post_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                        <hr class="goodHr">
                         <br>
                         <p class="post_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam volutpat suscipit finibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus nec mauris tempor, rhoncus mi eu, euismod purus. Quisque quis scelerisque augue. Mauris consectetur, odio a condimentum hendrerit</p>
                         <br></a>
@@ -42,6 +44,7 @@
                     <a href="adminTopic1.php"> 
                         <br>
                         <h2 class="post_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                        <hr class="goodHr">
                         <br>
                         <p class="post_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam volutpat suscipit finibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus nec mauris tempor, rhoncus mi eu, euismod purus. Quisque quis scelerisque augue. Mauris consectetur, odio a condimentum hendrerit</p>
                         <br></a>
@@ -50,6 +53,7 @@
                     <a href="adminTopic1.php"> 
                         <br>
                         <h2 class="post_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                        <hr class="goodHr">
                         <br>
                         <p class="post_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam volutpat suscipit finibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus nec mauris tempor, rhoncus mi eu, euismod purus. Quisque quis scelerisque augue. Mauris consectetur, odio a condimentum hendrerit</p>
                         <br></a>
@@ -59,17 +63,36 @@
                     <div class="side_post"> 
                     <a href="adminTopic1.php"> 
                         <br>
-                        <h2 class="post_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                        <p class="post_text categ_text">Categories</p>
+                        <hr class="goodHr">
+                        <ul>
+                        <li class="post_text"><a class="a_goodFont">Trading for Money<a> <p class="countText"><b>20</b></p></li>
+                        <li class="post_text"><a class="a_goodFont">Vault Keys Giveway<a> <p class="countText"><b>10</b></p></li>
+                        <li class="post_text"><a class="a_goodFont">Misc Guns Locations<a> <p class="countText"><b>50</b></p></li>
+                        <li class="post_text"><a class="a_goodFont">Looking for Players<a> <p class="countText"><b>36</b></p></li>
+                        <li class="post_text"><a class="a_goodFont">Stupid Bugs & Solves<a> <p class="countText"><b>41</b></p></li>
+                        <li class="post_text"><a class="a_goodFont">Video & Audio Drivers<a> <p class="countText"><b>11</b></p></li>
                         <br>
-                        <p class="post_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam volutpat suscipit finibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus nec mauris tempor, rhoncus mi eu, euismod purus. Quisque quis scelerisque augue. Mauris consectetur, odio a condimentum hendrerit</p>
-                        <br></a>
-                    </div>
-                    <div class="side_post"> 
+
+                        </ul>
+                    </a>
+
+                </div>
+                <div class="side_post"> 
                     <a href="adminTopic1.php"> 
                         <br>
-                        <h2 class="post_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                        <p class="post_text">Last topics</p>
+                        <hr class="goodHr">
                         <br>
-                        <p class="post_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam volutpat suscipit finibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus nec mauris tempor, rhoncus mi eu, euismod purus. Quisque quis scelerisque augue. Mauris consectetur, odio a condimentum hendrerit</p>
+                        <ul id="last_topics">
+                        <li><i><a class="post_text" href="#">Lorem ipsum dolor sit amet</a></i></li>
+                        <br>
+                        <li><i><a class="post_text" href="#">Lorem ipsum dolor sit amet</a></i></li>
+                        <br>
+                        <li><i><a class="post_text" href="#">Lorem ipsum dolor sit amet</a></i></li>
+                        <br>
+                        <li><i><a class="post_text" href="#">Lorem ipsum dolor sit amet</a></i></li>
+                        </ul>
                         <br></a>
                     </div>
                     

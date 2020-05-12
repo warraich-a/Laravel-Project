@@ -10,7 +10,7 @@ body {
 ul, li {
     list-style: none;
 }
-p, h1, h2 {
+p, h1, h2 ,h3{
     font-family: 'Roboto', sans-serif;
 }
 a {
@@ -204,6 +204,9 @@ text-align: center;
     padding: 15px;
     
 }
+#login_input{
+    width: 250px;
+}
 .login_input{
     
   padding: 6px 10px;
@@ -233,7 +236,32 @@ text-align: center;
     max-width: 95%;
     min-height: 70px;
 }
-
+#comment_name{
+    font-size: 20px;
+    font: Arial bold;
+}
+.categ_text{
+    font-size: 17px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+.a_goodFont{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3px;
+    
+}
+.countText{
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #bdc3c7;
+    color: white;
+    
+    padding: 3px 7px;
+    border-radius: 10px;
+}
+.goodHr{
+    border: 0.5px solid #c9cccd
+}
 
 
 /* Extra small devices (phones, 600px and down) */
@@ -276,6 +304,7 @@ text-align: center;
     .post_text{
         margin: 10px;
     }
+    
     .side_post{
         width: 500px;
         height: 100%;

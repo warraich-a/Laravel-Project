@@ -1,14 +1,4 @@
-<?php 
-//login
-include("../Model/server.php");
-
-    if (isset($_POST['login_user'])) 
-	{
-        $email = $_POST["email"];
-        $password_login = $_POST["password_login"];
-        login($email, $password_login);
-    } 
-?>
+<?php include('../Controller/login.request.php') ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -35,8 +25,6 @@ include("../Model/server.php");
             <div  id="white_block"  >
                 <div id="login_page">
                     <form method="post" action="login.php">
-                        <?php include('errors.php'); ?>
-                    
                              <center>
                             <h2>Member Login </h2> <br>
                             <label><p>Username</p></label><br>

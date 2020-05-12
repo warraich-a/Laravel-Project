@@ -1,4 +1,5 @@
 <?php 
+
 	// Rememeber me
 	// If user wants to be remembered, keep his session as long as he's logged in
 
@@ -15,9 +16,9 @@
 			unset($_COOKIE['uid']);
 			// Finally, destroy the session.    
 			session_destroy();
-
+			
 			// Include URL for Login page to login again.
-			header("Location: login.php");
+			header("Location: View\login.php");
 		}
 	}
 ?>

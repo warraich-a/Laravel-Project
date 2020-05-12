@@ -1,5 +1,5 @@
 <?php 
-include("../Model/config/dbConfig.php");
+include('../Model/config/dbConfig.php');
 
 
 	// include("php/connection.inc.php");
@@ -15,7 +15,7 @@ include("../Model/config/dbConfig.php");
 			if($email == "admin")
 			{
 		
-				header('location: ../View/adminIndex.php');
+				header('location: adminIndex.php');
 				
 			}  
 			else 
@@ -55,7 +55,7 @@ include("../Model/config/dbConfig.php");
 					if(isset($_SESSION['email']))
 					{
 						setcookie('uid', $result[0], time() + (86400 * 30));
-						header('Location: index.php');
+						header('Location: ../index.php');
 						// echo '<script>
 						// alert("Youre logged in")
 						// </script>';
@@ -98,7 +98,7 @@ include("../Model/config/dbConfig.php");
 			$stmt->bindParam(':password', $password);
 			$stmt->bindParam(':country', $country);
 			$stmt->execute();
-			header('location: login.php');
+			header('location: ../View/login.php');
 		
 		$conn = null;
 		}
@@ -112,7 +112,7 @@ include("../Model/config/dbConfig.php");
 	{
 		global $conn;
 		try{
-		require 'phpmailer\PHPMailerAutoload.php';
+		require 'C:\xampp\htdocs\web-project-wad\wad\Model\Phpmailer\PHPMailerAutoload.php';
 
 		$emailTo=$givenEmail;
 		// $url = $_SERVER["PHP_SELF"];

@@ -1,4 +1,4 @@
-<?php include('Controller\register.php') ?>
+<?php include('../Controller/register.php') ?>
 
 <!DOCTYPE html>
 <html>
@@ -27,7 +27,7 @@
         
         <form name = "validationForm" method="post" onsubmit="return Validation()" action="register.php">
 
-            <?php include('errors.php'); ?>
+           
     
 			<center>
                 <label><p>Name</p></label>
