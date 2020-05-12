@@ -1,6 +1,6 @@
 <?php 
 include('./Model/config/session.php');
-include('.Model/config/session_expiry.php');
+include('./Model/config/session_expiry.php');
 
 ?>
 
@@ -30,7 +30,7 @@ include('.Model/config/session_expiry.php');
         <main>
             <div class="container">
                 <div class="main_info">
-                    <div class="post"><a href="View/topic1.php"> 
+                    <div class="post"><a href="topic1.php"> 
                         <br>
                         <h2 class="post_text">Lorem ipsum dolor sit amet, consectetur adipiscing </h2>
                         <hr class="goodHr">
@@ -39,7 +39,7 @@ include('.Model/config/session_expiry.php');
                         <br></a>
                     </div>
                     <div class="post">
-                    <a href="View/topic1.php"> 
+                    <a href="topic1.php"> 
                         <br>
                         <h2 class="post_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
                         <hr class="goodHr">
@@ -48,7 +48,7 @@ include('.Model/config/session_expiry.php');
                         <br></a>
                     </div>
                     <div class="post">
-                    <a href="View/topic1.php"> 
+                    <a href="topic1.php"> 
                         <br>
                         <h2 class="post_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
                         <hr class="goodHr">
@@ -57,7 +57,7 @@ include('.Model/config/session_expiry.php');
                         <br></a>
                     </div>
                     <div class="post">
-                    <a href="View/topic1.php"> 
+                    <a href="topic1.php"> 
                         <br>
                         <h2 class="post_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
                         <hr class="goodHr">
