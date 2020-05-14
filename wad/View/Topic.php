@@ -1,30 +1,4 @@
-
 <?php 
-function createTopic()
-{
-    
-
-    $name = $_POST['file'];
-    $desc = $_POST['desc'];
-    $conn = mysqli_connect('studmysql01.fhict.local','dbi435688', 'webhosting54','dbi435688');
-    
-        
-        $sql = "INSERT INTO `topic`(`name`, `desc`) VALUES ('$name','$desc')";
-        $result = $conn->query($sql);
-        $id = 0;
-        $sql ="SELECT * FROM `topic` ORDER BY `id`";
-        $result = $conn->query($sql);
-        while($row = $result->fetch_assoc()){
-            $id = $row['id'];
-        }
-
-    $fileName = str_replace(' ', '', $name);
-    $fileName = str_replace('?', '', $fileName);
-    $fileName = str_replace('.', '', $fileName);
-    $fileName .=".php";
-    $myfile = fopen($fileName, "w") or die("Unable to open file!");
-    
-    $txt2 = '<?php 
 
     date_default_timezone_get("Europe/Copenhagen");
     include "../Model/commentConnection.inc.php";
@@ -58,17 +32,17 @@ function createTopic()
             <div class="container">
                 <div class="question">
                     <br />
-                    <h2 class="post_text">'.$name.'</h2>
+                    <h2 class="post_text">Topic?</h2>
                     <br />
                     <p class="post_text">
-                        '.$desc.'
+                         qwe
                     </p>
                     <br />
                     <p class="post_text"><b>Post Your Comment Below</b></p>
                     <div class="post_text">
                         <input type="text" class="name" placeholder="Name" id="login_input" /><br />
                         <input type="email" class="email" placeholder="Email" id="login_input" /><br />
-                        <input type="hidden" name="tId" class="tId" value="'.$id.'" /><br />
+                        <input type="hidden" name="tId" class="tId" value="18" /><br />
                         <textarea class="comment" id="comment_textarea"></textarea>
                         <br />
                         <br />
@@ -78,7 +52,7 @@ function createTopic()
                     </div>
                 </div>
                 
-                <?php session_start();$_SESSION["tid"] = '.$id.';?>
+                <?php session_start();$_SESSION["tid"] = 18;?>
                 <div class="comment_listing"></div>
                 
             </div>
@@ -86,20 +60,3 @@ function createTopic()
     </body>
 </html>
 <script src="JS/AddComment.js"></script>
-';
-
-
-
-    
-    fwrite($myfile, $txt2);
-    
-    
-    fclose($myfile);
-    header('Location: '.$fileName.'');
-}
-
-if(array_key_exists('test',$_POST)){
-    createTopic();
-}
-
-?>

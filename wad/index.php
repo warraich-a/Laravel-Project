@@ -36,6 +36,8 @@
                 $result = GetTopicValue($conn);
                 while($row = $result->fetch_assoc()){ {
                     $fileName = str_replace(' ', '', $row['name']);
+                    $fileName = str_replace('?', '', $fileName);
+                    $fileName = str_replace('.', '', $fileName);
                     $fileName .=".php";
                     ?>
 
