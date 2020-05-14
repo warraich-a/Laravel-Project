@@ -1,6 +1,7 @@
 <?php 
     date_default_timezone_get('Europe/Copenhagen');
     include '../Model/commentConnection.inc.php';
+    
     include 'comments.inc.php';
 ?>
 

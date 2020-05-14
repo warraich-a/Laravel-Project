@@ -2,6 +2,7 @@
 
     date_default_timezone_get('Europe/Copenhagen');
     include 'Model/commentConnection.inc.php';
+    include 'Model/functions.php';
     
 ?>
 
@@ -32,9 +33,8 @@
                 <div class="main_info">
                     <?php
 
-            $sql ="SELECT * FROM topic";
-            $result = $conn->query($sql);
-            while($row = $result->fetch_assoc()){ {
+                $result = GetTopicValue($conn);
+                while($row = $result->fetch_assoc()){ {
                     $fileName = str_replace(' ', '', $row['name']);
                     $fileName .=".php";
                     ?>

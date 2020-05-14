@@ -1,8 +1,8 @@
 <?php
-$link = mysqli_connect("studmysql01.fhict.local","dbi435688","webhosting54","dbi435688");
+include '../Model/functions.php';
 session_start();
 $id = $_SESSION['tid'];
-$result = mysqli_query($link,"SELECT * FROM comm WHERE tid = '$id'");
+$result =commentListValue($id);
 
 if(mysqli_num_rows($result)>0)
 {
