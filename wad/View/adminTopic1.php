@@ -1,6 +1,6 @@
 <?php 
     date_default_timezone_get('Europe/Copenhagen');
-    include 'connection.inc.php';
+    include '../Model/commentConnection.inc.php';
     include 'comments.inc.php';
 ?>
 
@@ -21,7 +21,7 @@
                     <ul>
                         <li class="test"><a><div id="img_prof"></div></a></li>
                         <li class="test" id="Username_a"><a id="">Username</a></li>
-                        <li class="test" style="float: left; padding: 0;"><div id="logo_header"></div></li>
+                        <li class="test" style="float: left; padding: 0;"><a href="../index.php"><div id="logo_header"></div></a></li>
                     </ul>
                 </div>
             </div>

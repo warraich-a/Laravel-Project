@@ -231,6 +231,19 @@ text-align: center;
 #btn_log:hover{
     background-color: #013c70;
 }
+.btn_log{
+    width: 250px;
+    height: 35px;
+    font-size: 18px;
+    color: white;
+    background-color: #001e38;
+    text-decoration: none;
+    border: none;
+    transition-duration: 0.3s;
+}
+.btn_log:hover{
+    background-color: #013c70;
+}
 #comment_textarea{
     min-width: 95%;
     max-width: 95%;

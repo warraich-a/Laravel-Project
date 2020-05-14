@@ -1,4 +1,6 @@
-<?php include('../Controller/email.request.php') ?>
+<?php
+    include '../Model/newTopicFunc.php';
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,6 +10,7 @@
 
 <header>
 <div id="main_img">
+
 </div>
 <div id = "header_menu">
     <div class="container">
@@ -23,17 +26,23 @@
         <div class="container">    
             <div  id="white_block"  >
                 <div id="login_page">
+                <form method="POST">
                     <center>
-                <form method="post" action="Email.php"> 
-                    <label for="email"><h3> Enter Your Email Address! </h3></label> <br> <br>
-                    <input type="text" name="emailToUse" class = "login_input"> <br> <br>
-                    <button type="submit" class="btn" name="SendMail" id="btn_log"><p>Send Email<p></button> </li>
-                </form>
+                    <h3>Your question</h3><br>
+                    <input type="text" name="file"  id = "file" class = "login_input" style="width: 400px"><br>
+                    <h3>Description</h3><br>
+                    <textarea type="text" name="desc"  id = "desc" class = "login_input" style="min-width: 464px;min-height: 251px;max-width: 464px;max-height: 251px; "> </textarea><br><br>
+                    <input type="submit" name="test" id="test" value="Create" class="btn_log"/><br><br>
                     </center>
-                    <br><br>
+                </form>
+                   
+                    
                 </div>    
             </div>
         </div>
     </main>
+        <footer>
+         
+        </footer>
 </body>
 </html>
