@@ -40,7 +40,7 @@
                     ?>
 
                     <div class="post">
-                        <?php echo "<a href='View/".$fileName."'?>"?>
+                        <?php echo "<a href='View/".$fileName."'>"?>
                             <br />
                             <h2 class="post_text"><?php echo $row['name'];?></h2>
                             <hr class="goodHr" />
