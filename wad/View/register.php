@@ -4,6 +4,10 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="CSS/main.css">
+    
+    <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="JS/anime.min.js"></script>
     <title>Forum</title>
 </head>
 <body>
@@ -15,7 +19,7 @@
                 <ul>
                     <li class="test"><a><div id="img_prof"></div></a></li>
                     <li class="test" id="Username_a"><a id="">Username</a></li>
-                    <li class="test" style="float: left; padding: 0;"><div id="logo_header"></div></li>
+                    <li class="test" style="float: left; padding: 0;"><a href="../index.php"><div id="logo_header"></div></a></li>
                 </ul>
             </div>
         </div>
@@ -31,16 +35,16 @@
     
 			<center>
                 <label><p>Name</p></label>
-				 <input type="text"   placeholder="Your Name"name="name" id="name" class="login_input"><br>
+				 <input type="text" required   placeholder="Your Name"name="name" id="name" class="login_input"><br>
          
-                <label<p>Email</p></label>
-                 <input type="email" placeholder="Your Email" name="email" id="email" class="login_input"> <br>
+                <label><p>Email</p></label>
+                 <input type="email" required placeholder="Your Email" name="email" id="email" class="login_input"> <br>
 
                 <label><p>Password</p></label>
-				 <input type="password" required placeholder="....." name="password_1" id="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" class="login_input"><br>
+				 <input type="password" placeholder="....." name="password_1" id="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" class="login_input"><br>
 
                 <label><p>Confirm password</p></label>
-				 <input type="password" required placeholder="....." name="password_2" id="psw" class="login_input"> <br>
+				 <input type="password" placeholder="....." name="password_2" id="psw" class="login_input"> <br>
 
                 <label><p>Country</p></label>
                 <input type="text" placeholder="Your Country" name="country" id="login_input" class="login_input"> <br>
@@ -62,7 +66,8 @@
             <p id="number" class="invalid">A <b>number</b></p>
             <p id="length" class="invalid">Minimum <b>8 characters</b></p>
         </div>
-        <script src="View\JS\jsFormValidation.js"></script>
+        <script src="JS\jsFormValidation.js"></script>
+       <!-- // <script src="JS\jslbrary.js"></script> -->
      </div> 
 </div>
       

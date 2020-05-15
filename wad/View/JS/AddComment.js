@@ -15,9 +15,10 @@ $(function () {
         var name = $(".name").val();
         var email = $(".email").val();
         var comment = $(".comment").val();
+        var tId = $(".tId").val();
         $.ajax({
-            url: "save_comment.php",
-            data: "name=" + name + "&email=" + email + "&comment=" + comment,
+            url: "../Model/save_comment.php",
+            data: "name=" + name + "&email=" + email + "&comment=" + comment + "&tId=" + tId,
             type: "post",
             success: function () {
                 alert("Your comment has been posted");

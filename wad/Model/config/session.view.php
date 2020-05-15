@@ -7,7 +7,7 @@ if(!isset($_SESSION['email'])){
 	$path = (@$_SERVER["HTTPS"] == "on") ? "https://" : "http://";
 	$path .=$_SERVER["SERVER_NAME"]. $directory;        
 	
-	$link = $path."/view/login.php";
+	$link = $path."/login.php";
 
 	// $absolute_path = realpath("$link");
 	// Include URL for Login page to login again.

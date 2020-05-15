@@ -1,11 +1,15 @@
 <?php
-$link = mysqli_connect("studmysql01.fhict.local","dbi435688","webhosting54","dbi435688");
-$result = mysqli_query($link,"SELECT * FROM comm ORDER BY id ");
+include '../Model/functions.php';
+session_start();
+$id = $_SESSION['tid'];
+$result =commentListValue($id);
+
 if(mysqli_num_rows($result)>0)
 {
 	while($row=mysqli_fetch_object($result))
 	{
 		?>
+		
 		<div class='question'>
 		<br><p class='post_text' id = "comment_name"><b><?php echo $row->name;?></b></p>
 

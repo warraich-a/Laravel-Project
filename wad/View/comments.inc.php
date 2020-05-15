@@ -1,13 +1,13 @@
 <?php 
+include '../Model/functions.php';
 
 function setComments($conn) {
     if(isset($_POST['commentSubmit'])){
         $uid = $_POST['uid'];
         $date = $_POST['date'];
         $message = $_POST['message'];
-
-        $sql = "INSERT INTO comments (uid, date, message) VALUES ('$uid','$date','$message')";
-        $result = $conn->query($sql);
+        GetSetComm($uid,$date,$message,$conn);
+        
     }
     
 }
@@ -15,16 +15,17 @@ function delComments($conn){
     if(isset($_POST['commentDelete'])){
         $cid = $_POST['cid'];
 
-        $sql = "DELETE FROM comm WHERE id = '$cid'";
-        $result = $conn->query($sql);
+        GetDelValue($cid,$conn);
     }
 }
 
 
 function getAdminComments($conn){
-    $sql ="SELECT * FROM comm ORDER BY id";
-    $result = $conn->query($sql);
+    
+    $result = GetAdminValue($conn);
+
     while($row = $result->fetch_assoc()){
+        
         echo "<div class='question'>";
         echo "<br> <p class='post_text'> <b>";
         echo $row['name'];
